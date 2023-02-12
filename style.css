@@ -1,0 +1,14 @@
+body {
+    padding: 5%;
+    font-family: 'Newsreader', serif;
+    font-size: 1.66rem;
+    background-color: whitesmoke;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    opacity: .25;
+}
