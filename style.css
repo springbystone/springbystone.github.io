@@ -1,14 +1,43 @@
+@font-face{
+font-family: WremenaLight;
+src: url('files/WremenaLight.woff'), url('files/WremenaLight.woff') format('woff');}
+
 body {
-    padding: 5%;
-    font-family: 'Newsreader', serif;
-    font-size: 1.66rem;
+    padding: 5% 18%;
+    font-family: Newsreader, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.33rem;
+    color: rgb(35, 35, 35);
     background-color: whitesmoke;
 }
 
+h1 {
+    font-family: Newsreader, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
 a {
-    color: black;
+    color: rgb(35, 35, 35);
 }
 
 a:hover {
-    opacity: .25;
+    animation: taadaa 2s infinite;
+
+}
+
+@keyframes taadaa { 
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
