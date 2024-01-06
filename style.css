@@ -1,49 +1,37 @@
-@font-face{
-font-family: WremenaLight;
-src: url('files/WremenaLight.woff'), url('files/WremenaLight.woff') format('woff');}
-
 body {
-  background: linear-gradient(202deg, #dcdfff, #ffe7f7, #ffded0);
-  background-size: 600% 600%;
-  padding: 5% 18%;
-  font-family: "larken", sans-serif;
-font-weight: 100;
-font-style: normal;
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-  color: #4A4A4A;
-
-  -webkit-animation: AnimationName 13s ease infinite;
-  -moz-animation: AnimationName 13s ease infinite;
-  animation: AnimationName 13s ease infinite;
+    background-color: #EFF7FF;
+    font-family: 'Newsreader', serif;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #393939;
 }
 
-@-webkit-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+#content-main {
+    padding: 10% 28%;
 }
 
 h1 {
-  font-family: "larken", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-    font-size: 2.4rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
+
+ol {
+    margin: 5% 0;
+}
+
+li {
+    margin: 2% 0;
+}
+
+img {
+    width: 160px;
+    border-radius: 50%;
+    margin: 5% 0;
 }
 
 a {
-  color: #4A4A4A;
-  text-decoration-thickness: 2.5px;
+    color: #265CDA;
 }
 
 a:hover {
@@ -64,3 +52,16 @@ a:hover {
     opacity: 1;
   }
 }
+
+  #italic {
+    font-style: italic;
+  }
+
+  @media only screen and (max-width: 500px) {
+    #content-main {
+        padding: 10% 5%;
+    }
+    img {
+        width: 120px;
+    }
+  }
