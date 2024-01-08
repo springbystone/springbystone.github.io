@@ -57,6 +57,15 @@ a:hover {
     font-style: italic;
   }
 
+  @media only screen and (max-width: 1200px) {
+    #content-main {
+        padding: 10% 20%;
+    }
+    img {
+        width: 120px;
+    }
+  }
+
   @media only screen and (max-width: 500px) {
     #content-main {
         padding: 10% 5%;
