@@ -1,9 +1,9 @@
 body {
-    background-color: #EFF7FF;
-    font-family: 'Newsreader', serif;
-    font-size: 1.25rem;
+    background-color: #fcfcfc;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.15rem;
     line-height: 2rem;
-    color: #393939;
+    color: #636363;
 }
 
 #content-main {
@@ -11,9 +11,9 @@ body {
 }
 
 h1 {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.25rem;
-    line-height: 1.8rem;
+    font-family: 'Newsreader', serif;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
 }
 
 ol {
@@ -24,6 +24,10 @@ li {
     margin: 2% 0;
 }
 
+li::marker {
+  font-size: 1.6rem;
+}
+
 img {
     width: 160px;
     border-radius: 50%;
@@ -31,7 +35,7 @@ img {
 }
 
 a {
-    color: #265CDA;
+  color: #636363;
 }
 
 a:hover {
@@ -55,6 +59,14 @@ a:hover {
 
   #italic {
     font-style: italic;
+  }
+
+  #highlight {
+    background: linear-gradient(90deg, rgba(219,229,252,1) 35%, rgba(234,204,255,1) 100%);
+  }
+
+  #postscript {
+    font-size: 0.8rem;
   }
 
   @media only screen and (max-width: 1200px) {
