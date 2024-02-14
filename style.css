@@ -7,7 +7,7 @@ body {
 }
 
 #content-main {
-    padding: 10% 30%;
+    padding: 10% 28%;
 }
 
 h1 {
@@ -82,7 +82,7 @@ hr {
   }
 
   #highlight {
-    background: linear-gradient(90deg, rgba(219,229,252,1) 35%, rgba(234,204,255,1) 100%);
+    background-color: rgba(219,229,252,1);
   }
 
   #postscript {
@@ -101,6 +101,10 @@ hr {
   @media only screen and (max-width: 500px) {
     #content-main {
         padding: 10% 5%;
+    }
+    #callout {
+      font-size: 1.9rem;
+      line-height: 2.7rem;
     }
     img {
         width: 120px;
